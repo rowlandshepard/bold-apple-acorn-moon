@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lumen Cards",
+      "hasCanvas": false,
+      "bodyTextLen": 9435,
+      "bodyTextHash": "496ecaa70e0e0c0f13d231dc4b4d8d705b1b387f49292a87f2b4d6adbae75121",
+      "bodyTextPrefix": "BIOL 1414 Lumen Cards Lectures 7–10. Answer the card, see whethe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lumen Cards",
+      "hasCanvas": false,
+      "bodyTextLen": 9435,
+      "bodyTextHash": "496ecaa70e0e0c0f13d231dc4b4d8d705b1b387f49292a87f2b4d6adbae75121",
+      "bodyTextPrefix": "BIOL 1414 Lumen Cards Lectures 7–10. Answer the card, see whethe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (14938 -> 9435 chars, hash mismatch)",
+    "mobile: body text changed (14938 -> 9435 chars, hash mismatch)"
+  ]
+}

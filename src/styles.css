@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Outfit", "Avenir Next", system-ui, sans-serif;
+
+  --color-paper: #f3eee4;
+  --color-card: #fbf8f2;
+  --color-ink: #1c2430;
+  --color-muted: #3e4942;
+  --color-line: #e3d9c8;
+  --color-chlorophyll: #1f6a45;
+  --color-chlorophyll-soft: #e4f2ea;
+  --color-rust: #9c3d28;
+  --color-rust-soft: #f8ebe6;
+  --color-brass: #6a5226;
+  --color-brass-soft: #f3ead6;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.sheet {
+  background: var(--color-card);
+  border: 1px solid var(--color-line);
+  box-shadow:
+    0 1px 0 var(--color-line),
+    0 16px 40px rgba(28, 36, 48, 0.06);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

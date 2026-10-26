@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lumen Cards",
+      "hasCanvas": false,
+      "bodyTextLen": 14938,
+      "bodyTextHash": "435e068b3bf5af3737228d4e7b8cfa1b1ffecdb62f69daf868c61c6959a55023",
+      "bodyTextPrefix": "BIOL 1414 Lumen Cards Lectures 7–10. Answer the card, see whethe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lumen Cards",
+      "hasCanvas": false,
+      "bodyTextLen": 14938,
+      "bodyTextHash": "435e068b3bf5af3737228d4e7b8cfa1b1ffecdb62f69daf868c61c6959a55023",
+      "bodyTextPrefix": "BIOL 1414 Lumen Cards Lectures 7–10. Answer the card, see whethe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
